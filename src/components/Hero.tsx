@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row gap-4 text-muted-foreground">
         <div className="flex items-center gap-2">
           <MapPin className="h-4 w-4" />
-          <span>Clermont-Ferrand, France</span>
+          <span>Lyon, France</span>
         </div>
         <div className="flex items-center gap-2">
           <Mail className="h-4 w-4" />

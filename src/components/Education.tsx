@@ -15,7 +15,7 @@ const Education = () => {
               Développeur en intelligence artificielle
             </h3>
             <div className="text-primary mb-1">École IA Microsoft</div>
-            <div className="text-sm text-muted-foreground mb-2">Clermont-Ferrand</div>
+            <div className="text-sm text-muted-foreground mb-2">Lyon</div>
             <p className="text-muted-foreground mb-4">
               Titre de niveau 6 (bac+4)
             </p>
@@ -31,7 +31,7 @@ const Education = () => {
               DUT Informatique
             </h3>
             <div className="text-primary mb-1">IUT de Clermont-Fd</div>
-            <div className="text-sm text-muted-foreground mb-2">Aubière</div>
+            <div className="text-sm text-muted-foreground mb-2">Lyon</div>
           </div>
         </div>
 

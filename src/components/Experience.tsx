@@ -14,7 +14,7 @@ const experiences = [
     period: "02/2021 - 02/2022",
     title: "Alternant Data Scientist",
     company: "Crédit Agricole",
-    location: "Clermont-Fd",
+    location: "Lyon",
     description: "Analyse et traitement des données pour améliorer la connaissance client et la performance des campagnes marketing personnalisées. Scoring clients et segmentation via méthodes de classification et clustering.",
     skills: ["SAS", "Python", "R", "Plotly JS", "Git", "Power BI"]
   },
