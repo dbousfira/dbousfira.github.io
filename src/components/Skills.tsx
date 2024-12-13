@@ -2,7 +2,7 @@ const skills = [
   { 
     name: "Data Science", 
     level: 90,
-    details: "Machine/Deep Learning (NLP, Computer Vision), statistiques, collecte et analyse des données, pré-processing, framework (TensorFlow, Keras)"
+    details: "Machine/Deep Learning (NLP, Computer Vision), statistics, data collection and analysis, pre-processing, frameworks (TensorFlow, Keras)"
   },
   { 
     name: "Analytics & Programming", 

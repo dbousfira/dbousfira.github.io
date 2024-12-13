@@ -4,26 +4,26 @@ import { BriefcaseBusiness } from "lucide-react";
 const experiences = [
   {
     period: "03/2022 - 03/2024",
-    title: "Consultant Data",
+    title: "Data Consultant",
     company: "Coexya",
     location: "St-Didier-au-Mont-d'Or",
-    description: "Conception d'API et web app pour la dataviz, identification des indicateurs clés de performance, élaboration de rapports Power BI, animation des ateliers avec le client et rédaction des comptes rendus, gouvernance de la donnée avec Microsoft Purview",
+    description: "Design of APIs and web apps for data visualization, identification of key performance indicators, development of Power BI reports, facilitation of client workshops and writing reports, data governance with Microsoft Purview",
     skills: ["ASP.NET", "Vue.js", "Power BI", "Git"]
   },
   {
     period: "02/2021 - 02/2022",
-    title: "Alternant Data Scientist",
+    title: "Data Scientist Apprentice",
     company: "Crédit Agricole",
     location: "Lyon",
-    description: "Analyse et traitement des données pour améliorer la connaissance client et la performance des campagnes marketing personnalisées. Scoring clients et segmentation via méthodes de classification et clustering.",
+    description: "Analysis and processing of data to improve customer knowledge and personalized marketing campaign performance. Customer scoring and segmentation using classification and clustering methods.",
     skills: ["SAS", "Python", "R", "Plotly JS", "Git", "Power BI"]
   },
   {
     period: "10/2017 - 04/2019",
-    title: "Développeur web full-stack",
+    title: "Full Stack Web Developer",
     company: "ToManage",
     location: "Issoire",
-    description: "Développement de modules pour un ERP",
+    description: "Development of modules for an ERP system",
     skills: ["MongoDB", "AngularJS", "Node.js", "Bootstrap", "Git", "C"]
   }
 ];

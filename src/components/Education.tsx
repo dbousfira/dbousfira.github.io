@@ -12,12 +12,12 @@ const Education = () => {
             <div className="text-sm text-muted-foreground mb-1">2022</div>
             <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
               <GraduationCap className="h-5 w-5 text-primary" />
-              Développeur en intelligence artificielle
+              AI Developer
             </h3>
-            <div className="text-primary mb-1">École IA Microsoft</div>
+            <div className="text-primary mb-1">Microsoft AI School</div>
             <div className="text-sm text-muted-foreground mb-2">Lyon</div>
             <p className="text-muted-foreground mb-4">
-              Titre de niveau 6 (bac+4)
+              Level 6 qualification (Bachelor's degree +1)
             </p>
           </div>
         </div>
@@ -28,9 +28,9 @@ const Education = () => {
             <div className="text-sm text-muted-foreground mb-1">2017</div>
             <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
               <GraduationCap className="h-5 w-5 text-primary" />
-              DUT Informatique
+              Technical Degree in Computer Science
             </h3>
-            <div className="text-primary mb-1">IUT de Clermont-Fd</div>
+            <div className="text-primary mb-1">IUT of Lyon</div>
             <div className="text-sm text-muted-foreground mb-2">Lyon</div>
           </div>
         </div>
@@ -41,12 +41,12 @@ const Education = () => {
             <div className="text-sm text-muted-foreground mb-1">2014</div>
             <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
               <GraduationCap className="h-5 w-5 text-primary" />
-              Baccalauréat S-SVT
+              Scientific Baccalaureate
             </h3>
-            <div className="text-primary mb-1">Lycée Jean-Paul Sartre</div>
+            <div className="text-primary mb-1">Jean-Paul Sartre High School</div>
             <div className="text-sm text-muted-foreground mb-2">Bron</div>
             <p className="text-muted-foreground mb-4">
-              Spécialité ISN
+              Computer Science Specialization
             </p>
           </div>
         </div>
