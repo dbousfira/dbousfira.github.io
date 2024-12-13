@@ -6,7 +6,7 @@ const skills = [
   },
   { 
     name: "Analytics & Programming", 
-    level: 85,
+    level: 95,
     details: "Python (Django, Scikit-learn, Pandas, Matplotlib, Numpy, Seaborn), R, SAS, Shell, C, Arduino"
   },
   { 
@@ -21,7 +21,7 @@ const skills = [
   },
   { 
     name: "Database Management", 
-    level: 80,
+    level: 95,
     details: "SQL, Oracle (PL/SQL, Pro*C), MongoDB, JPA, Redis"
   }
 ];
