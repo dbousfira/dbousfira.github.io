@@ -13,8 +13,8 @@ const Hero = () => {
         </div>
         <div className="flex items-center gap-2">
           <Mail className="h-4 w-4" />
-          <a href="mailto:contact@example.com" className="hover:text-primary transition-colors">
-            contact@example.com
+          <a href="mailto:d.bousfira@hotmail.fr" className="hover:text-primary transition-colors">
+            d.bousfira@hotmail.fr
           </a>
         </div>
         <div className="flex items-center gap-2">
