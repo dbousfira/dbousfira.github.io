@@ -7,7 +7,13 @@ const experiences = [
     title: "Data Consultant",
     company: "Coexya",
     location: "St-Didier-au-Mont-d'Or",
-    description: "Design of APIs and web apps for data visualization, identification of key performance indicators, development of Power BI reports, facilitation of client workshops and writing reports, data governance with Microsoft Purview",
+    description: [
+      "Design of APIs and web apps for data visualization",
+      "Identification of key performance indicators",
+      "Development of Power BI reports",
+      "Facilitation of client workshops and writing reports",
+      "Data governance with Microsoft Purview"
+    ],
     skills: ["ASP.NET", "Vue.js", "Power BI", "Git"]
   },
   {
@@ -15,7 +21,12 @@ const experiences = [
     title: "Data Scientist Apprentice",
     company: "Crédit Agricole",
     location: "Lyon",
-    description: "Analysis and processing of data to improve customer knowledge and personalized marketing campaign performance. Customer scoring and segmentation using classification and clustering methods.",
+    description: [
+      "Analysis and processing of data to improve customer knowledge",
+      "Enhancement of personalized marketing campaign performance",
+      "Customer scoring implementation",
+      "Customer segmentation using classification and clustering methods"
+    ],
     skills: ["SAS", "Python", "R", "Plotly JS", "Git", "Power BI"]
   },
   {
@@ -23,7 +34,11 @@ const experiences = [
     title: "Full Stack Web Developer",
     company: "ToManage",
     location: "Issoire",
-    description: "Development of modules for an ERP system",
+    description: [
+      "Development of modules for an ERP system",
+      "Implementation of new features",
+      "Maintenance and optimization of existing modules"
+    ],
     skills: ["MongoDB", "AngularJS", "Node.js", "Bootstrap", "Git", "C"]
   }
 ];
@@ -44,7 +59,11 @@ const Experience = () => {
               </h3>
               <div className="text-primary mb-1">{exp.company}</div>
               <div className="text-sm text-muted-foreground mb-2">{exp.location}</div>
-              <p className="text-muted-foreground mb-4">{exp.description}</p>
+              <ul className="list-disc pl-5 text-muted-foreground mb-4 space-y-1">
+                {exp.description.map((item, idx) => (
+                  <li key={idx}>{item}</li>
+                ))}
+              </ul>
               <div className="flex flex-wrap gap-2">
                 {exp.skills.map((skill, idx) => (
                   <Badge key={idx} variant="secondary">{skill}</Badge>
