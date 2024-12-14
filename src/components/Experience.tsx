@@ -20,7 +20,7 @@ const experiences = [
     period: "02/2021 - 02/2022",
     title: "Data Scientist Apprentice",
     company: "Crédit Agricole",
-    location: "Lyon",
+    location: "Clermont-Ferrand",
     description: [
       "Analysis and processing of data to improve customer knowledge",
       "Enhancement of personalized marketing campaign performance",
